@@ -1,0 +1,43 @@
+body {
+    background-color: #68544c;
+    background-image: url("../images/stones.png");
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 48px;
+    background: #68544c;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#game {
+    background-color: #666666;
+    border: 4px ridge;
+
+}
+
+.crystals {
+    text-align: center;
+    padding: 20px;
+}
+
+.scores, .win-loss {
+    background-color: #8d8c8c;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#scoreToWin {
+    font-size: 48px;
+}
+
+
+
