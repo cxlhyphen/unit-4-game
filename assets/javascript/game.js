@@ -41,21 +41,21 @@ function compareScores() {
 
     if (currScore === scoreToWin) {
         wins++;
-        alert("You Win!");
+        setTimeout(alert("You Win!"), 500);
         gameStart();
     }
 
     else if (currScore >= scoreToWin) {
         losses++;
-        alert ("You Lose!");
+        setTimeout(alert("You Lose!"), 500);
         gameStart();
     }
+
 }
 
 $("#silver").on("click", function() {
     currScore = currScore += silver;
     compareScores();
-    
 });
 
 $("#gold").on("click", function() {
